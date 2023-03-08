@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @Data
 
-public class CountryRecipes {
-    @JsonProperty("Name")
+public class CountryRecipesResponseBean {
+    @JsonProperty("name")
     private String name;
 }
